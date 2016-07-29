@@ -19,7 +19,7 @@
 body {
 	/*background-color: #4b515d;*/
   /*background: url(http://localhost:8888/myportfolio/wp-content/uploads/2016/07/Screen-Shot-2016-07-20-at-11.00.33-AM-1.png)*/
-  background-color: #ebebeb;
+  /*background-color: #ebebeb;*/
 }
 
 h1 {
@@ -200,7 +200,7 @@ a{
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: #ebebeb;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -246,3 +246,71 @@ h1{
   margin: 0 auto;
 }
 
+
+
+h1{
+  color:#000000;
+}
+.page-title{
+  color:#000000;
+}
+
+
+
+
+/*Adding Background behind text*/
+<div id="container">
+   <input name="main" type="textbox" />
+   <input name="box" type="textbox" />
+   <input name="submit" type="submit" />
+</div>
+
+#container {
+    background-image:url(http://localhost:8888/myportfolio/wp-content/uploads/2016/07/Screen-Shot-2016-07-20-at-11.00.33-AM-1.png);
+    background-position:center;
+    width:700px;
+    height:400px;
+}
+
+
+
+
+
+
+/*Mimicking Tumblr theme*/
+{block:Posts}
+<article>
+{block:Text}
+…
+{/block:Text}
+{block:Photo}
+…
+{/block:Photo}
+{block:Photoset}
+…
+{/block:Photoset}
+{block:Quote}
+…
+{/block:Quote}
+{block:Link}
+…
+{/block:Link}
+{block:Chat}
+…
+{/block:Chat}
+{block:Audio}
+…
+{/block:Audio}
+{block:Video}
+…
+{/block:Video}
+{block:Answer}
+…
+{/block:Answer}
+</div>  
+
+<footer class="contentinfo" role="contentinfo">
+
+</footer>
+ </article>
+{/block:Posts}
